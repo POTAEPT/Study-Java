@@ -12,6 +12,6 @@ public class Lab9_1 {
         double input = Sinput.nextDouble();
         Sinput.nextLine();
 
-        System.out.printf("");
-    }
+        System.out.printf("2^%.0f = %.10f", input, Pownumber(input));
+    } 
 }
