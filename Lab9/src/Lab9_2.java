@@ -52,8 +52,8 @@ public class Lab9_2 {
                         num = divide(num, value);
                         break;
                     default:
-                        System.out.println("Unknown command: " + control);
-                        break;
+                        System.out.printf("Unknown command: %s Try again " , control);
+                        return;
                 }
             } catch (ArithmeticException ex) {
                 System.out.println(ex.getMessage());

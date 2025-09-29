@@ -7,7 +7,7 @@ public class Lab9_3 {
          */
         public static int labMethodQ1(int x, int y){
             int sum= 0;
-            if(x > 0 && y > 0 ){/*modify the condition here*/
+            if(x > 0 && y > 0 ){
                 sum = x+y;
             }else {return 0 ;}
 
