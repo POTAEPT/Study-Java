@@ -53,12 +53,10 @@ public class Lab9_2 {
                         break;
                     default:
                         System.out.println("Unknown command: " + control);
-                        // ไม่เปลี่ยนค่า num ถ้าคำสั่งไม่รู้จัก
                         break;
                 }
             } catch (ArithmeticException ex) {
                 System.out.println(ex.getMessage());
-                // ไม่เปลี่ยนค่า num ถ้าเกิดข้อผิดพลาด
             }
             System.out.printf("Currently, num = %.2f %n" , num);
         }
